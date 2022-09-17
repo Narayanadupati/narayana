@@ -9,7 +9,7 @@
     use Aws\DynamoDb\DynamoDbClient;
 
     $client = DynamoDbClient::factory(array(
-        'region' => 'us-east-1',
+        'region' => 'ap-south-1',
         'version' => 'latest'
     ));
 
